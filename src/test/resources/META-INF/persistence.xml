@@ -4,9 +4,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="tests" transaction-type="RESOURCE_LOCAL">
-		<class>br.com.alura.leilao.model.Lance</class>
-		<class>br.com.alura.leilao.model.Leilao</class>
-		<class>br.com.alura.leilao.model.Usuario</class>
+		<class>br.com.leilao.model.Lance</class>
+		<class>br.com.leilao.model.Leilao</class>
+		<class>br.com.leilao.model.Usuario</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:leiloes_test" />
