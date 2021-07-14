@@ -7,7 +7,7 @@
 		<div class="container">
 			<div th:replace="~{base :: titulo('Login')}"></div>
 
-			<div th:if="${param.error}" class="alert alert-danger" role="alert">   
+			<div id="invalid-user" th:if="${param.error}" class="alert alert-danger" role="alert">
 				Usuário e senha inválidos.
 			</div>
 
@@ -23,7 +23,7 @@
 						<input id="password" type="password" name="password" class="form-control" placeholder="senha">
 					</div>
 
-					<button class="btn btn-primary" type="submit">Login</button>
+					<button class="btn btn-primary" type="submit" id="submit">Login</button>
 				</form>
 			</div>
 		</div>
