@@ -1,4 +1,4 @@
-package br.com.leilao.selenium;
+package br.com.leilao.selenium.login;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
